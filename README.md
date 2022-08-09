@@ -1,4 +1,4 @@
 # Corebuild
  -- Internship Corebuild --
  
-Check branches to chose the project you want to see.
+Check branches to chose the project/tutorial/course you want to see.
