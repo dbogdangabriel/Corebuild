@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ANrN5G1cxhrA3r6yM6WngbZgAxkIPW5VjV1tewiU16caNaDOsGfkHAIaEwtVma130jm8lJxzVAhJ52E090/h9A==",
+  "dgSpecHash": "94K1UVNwyEqajjgmVQu5InfWQh7Afav4RthkzYkF58/9FZ2OiSmGYyU4XW8+v0b+/Fl13sZ3SuKSVuvCLM6WqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bogdan.draghici\\source\\repos\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj",
+  "projectFilePath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\CourseLibrary-RESTful\\CourseLibrary.API\\CourseLibrary.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

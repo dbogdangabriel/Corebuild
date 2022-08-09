@@ -4918,11 +4918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bogdan.draghici\\source\\repos\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj",
+      "projectUniqueName": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\CourseLibrary-RESTful\\CourseLibrary.API\\CourseLibrary.API.csproj",
       "projectName": "CourseLibrary.API",
-      "projectPath": "C:\\Users\\bogdan.draghici\\source\\repos\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj",
+      "projectPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\CourseLibrary-RESTful\\CourseLibrary.API\\CourseLibrary.API.csproj",
       "packagesPath": "C:\\Users\\bogdan.draghici\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bogdan.draghici\\source\\repos\\CourseLibrary\\CourseLibrary.API\\obj\\",
+      "outputPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\CourseLibrary-RESTful\\CourseLibrary.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
