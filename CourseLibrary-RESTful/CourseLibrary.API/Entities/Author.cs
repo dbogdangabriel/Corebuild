@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CourseLibrary.API.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -26,5 +27,7 @@ namespace CourseLibrary.API.Entities
 
         public ICollection<Course> Courses { get; set; }
             = new List<Course>();
+
+
     }
 }
