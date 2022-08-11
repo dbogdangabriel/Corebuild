@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json.Serialization;
 using System;
 
 namespace CourseLibrary.API
@@ -29,11 +30,37 @@ namespace CourseLibrary.API
             services.AddControllers(setupAction =>
             {
                 setupAction.ReturnHttpNotAcceptable = true; // used to configure services 
-            }).AddXmlDataContractSerializerFormatters()
+            })
+              .AddNewtonsoftJson(setupAction =>
+              {
+                  setupAction.SerializerSettings.ContractResolver =
+                   new CamelCasePropertyNamesContractResolver();
+              })
+              .AddXmlDataContractSerializerFormatters()
               .ConfigureApiBehaviorOptions(setupAction =>
               {
                   setupAction.InvalidModelStateResponseFactory = context =>
                   {
+                      // new validation model
+
+                      var problemDetails = new ValidationProblemDetails(context.ModelState)
+                      {
+                          Type = "https://courselibrary.com/modelvalidationproblem",
+                          Status = StatusCodes.Status422UnprocessableEntity,
+                          Title = "Once or more validation erros occured.",
+                          Detail = "See the erros property for details.",
+                          Instance = context.HttpContext.Request.Path
+                      };
+
+                      problemDetails.Extensions.Add("traceId", context.HttpContext.TraceIdentifier);
+
+                      return new UnprocessableEntityObjectResult(problemDetails)
+                      {
+                          ContentTypes = { "application/problem+json" }
+                      };
+
+/*
+                      // old validation model
                      // create a problem details object
                       var problemDetailsFactory = context.HttpContext.RequestServices
                          .GetRequiredService<ProblemDetailsFactory>();
@@ -72,7 +99,7 @@ namespace CourseLibrary.API
                       return new BadRequestObjectResult(problemDetails)
                       {
                           ContentTypes = { "application/problem+json" }
-                      };
+                      };*/
 
                   };
               });

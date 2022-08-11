@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3NOaoWviV9ObH1dsQWBpfgudU5BZnLZVNZgJzAUOiwny2/gnEvZAF9weyZ/E7BXuEK4+3ySN++XhwdPubG75Sg==",
+  "dgSpecHash": "mnn0iaIDPY/8EGAOs4/c/mNgbJKdy6Y09LAIa7mOStas7u4IDBMdVr5bVp9nxtRyGMvjq2eaL8k9466BuqFP5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\CourseLibrary-RESTful\\CourseLibrary.API\\CourseLibrary.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.0.0\\microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
@@ -30,6 +32,8 @@
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

@@ -76,3 +76,7 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibr
 C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\obj\Debug\netcoreapp3.0\CourseLibrary.API.genruntimeconfig.cache
 C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\bin\Debug\netcoreapp3.0\AutoMapper.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\CourseLibrary-RESTful\CourseLibrary.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
