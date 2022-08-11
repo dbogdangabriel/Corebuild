@@ -28,7 +28,7 @@ namespace CourseLibrary.API.Controllers
             _mapper = mapper ??
                 throw new ArgumentNullException(nameof(mapper));
         }
-
+         
 
         [HttpGet("({ids})", Name ="GetAuthorCollection")]
         public IActionResult GetAuthorCollection(
@@ -52,7 +52,7 @@ namespace CourseLibrary.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<AuthorDto> CreateAuthorCollection(
+        public ActionResult<IEnumerable<AuthorDto>> CreateAuthorCollection(
             IEnumerable<AuthorForCreationDto> authorCollection)
         {
             if (authorCollection == null)
