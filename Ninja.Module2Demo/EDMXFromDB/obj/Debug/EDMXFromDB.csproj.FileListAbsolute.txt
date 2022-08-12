@@ -1,0 +1,6 @@
+C:\Users\bogdan.draghici\source\repos\Corebuild\Ninja.Module2Demo\EDMXFromDB\bin\Debug\EDMXFromDB.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Ninja.Module2Demo\EDMXFromDB\bin\Debug\EDMXFromDB.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\Ninja.Module2Demo\EDMXFromDB\obj\Debug\EDMXFromDB.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\Ninja.Module2Demo\EDMXFromDB\obj\Debug\EDMXFromDB.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\Ninja.Module2Demo\EDMXFromDB\obj\Debug\EDMXFromDB.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Ninja.Module2Demo\EDMXFromDB\obj\Debug\EDMXFromDB.pdb
