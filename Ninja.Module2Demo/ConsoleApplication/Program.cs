@@ -125,7 +125,7 @@ namespace ConsoleApplication
             {
                 context.Database.Log = Console.WriteLine;
                 var ninja = context.Ninjas.Find(keyval);
-                Console.WriteLine( "After Find#1: " + ninja.Name);
+                Console.WriteLine( "After #1: " + ninja.Name);
 
                 var someNinja = context.Ninjas.Find(keyval);
                 Console.WriteLine("After #2: " + someNinja.Name);
