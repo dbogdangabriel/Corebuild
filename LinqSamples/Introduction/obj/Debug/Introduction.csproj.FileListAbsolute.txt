@@ -1,0 +1,8 @@
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\bin\Debug\Introduction.exe.config
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\bin\Debug\Introduction.exe
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\bin\Debug\Introduction.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\obj\Debug\Introduction.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\obj\Debug\Introduction.csproj.SuggestedBindingRedirects.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\obj\Debug\Introduction.exe
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Introduction\obj\Debug\Introduction.pdb
