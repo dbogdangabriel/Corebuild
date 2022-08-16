@@ -1,0 +1,2 @@
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\MVCApp\obj\Debug\MVCAppNinjaOnly.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\MVCApp\obj\Debug\MVCAppNinjaOnly.csproj.CoreCompileInputs.cache

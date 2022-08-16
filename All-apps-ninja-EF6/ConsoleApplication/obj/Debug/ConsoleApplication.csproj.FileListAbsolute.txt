@@ -1,0 +1,17 @@
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\EntityFramework.dll
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\NinjaDomain.Classes.dll
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\NinjaDomain.DataModel.dll
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\NinjaDomain.Classes.pdb
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\NinjaDomain.DataModel.pdb
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\EntityFramework.xml
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CopyComplete
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\bogdan.draghici\Desktop\04\demos\Distribution\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
