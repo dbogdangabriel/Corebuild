@@ -8,3 +8,8 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\Cars.
 C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.exe
 C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.pdb
 C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\manufacturers.csv
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\EntityFramework.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\EntityFramework.xml
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.csproj.CopyComplete
