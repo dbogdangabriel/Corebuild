@@ -1,0 +1,10 @@
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.csproj.SuggestedBindingRedirects.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\fuel.csv
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\Cars.exe.config
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\Cars.exe
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\Cars.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.exe
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\obj\Debug\Cars.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\LinqSamples\Cars\bin\Debug\manufacturers.csv
