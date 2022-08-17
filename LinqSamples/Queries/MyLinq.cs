@@ -18,7 +18,7 @@ namespace Queries
                 if (predicate(item))
                 {
                    // result.Add(item);   
-                   yield return item; // yield help  build an IEnumerable, it automaticaly return an IEnumerable, return a sequence of items
+                   yield return item; // yield help  build an IEnumerable, it automaticaly return an IEnumerable, return a sequence of items 
                 }
             }
            // return result;
