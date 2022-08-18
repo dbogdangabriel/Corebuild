@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GxXM8wNhDSZ/Z+8f3n3TsU/Yb8x+dI8UXgpUMoqpkypf547ainh7h0LdGuSeemD8YdeIoV+/UqsyApbAP4YX8A==",
+  "dgSpecHash": "20pU7qQhs4U8jdlhBjGiU1RnoQSvYKropV9SKCE5vtX65FS3m2jHamvAj89u8PLoXjc4r6uHGI1JITYPo4sxKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,7 @@
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
