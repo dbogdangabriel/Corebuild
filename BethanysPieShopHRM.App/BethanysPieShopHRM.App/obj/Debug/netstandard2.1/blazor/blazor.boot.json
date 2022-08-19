@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BethanysPieShopHRM.App.dll": "sha256-HqcLrRg7h2IlOBsJB4aMGPHP6EHtaTmlnznmKh8pzPc=",
+      "BethanysPieShopHRM.App.dll": "sha256-rzCwu4d4X\/edVoquw+vEAslvd1Vcv+GwbHCHMafvcgE=",
       "System.Text.Json.dll": "sha256-pzCorxTCjbUODF5JuRgcHc8gVYEdSaKD9NWA6wZhTPE=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-kL\/omZDwqByAi+lPdMeDmr3XjHcn4RVb+LmZ4mut1Yc=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-dwm+rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs="
     },
     "pdb": {
-      "BethanysPieShopHRM.App.pdb": "sha256-6DRNL4XOtW2AheEXqOMzSF5WGfZKECE4TM1LXn+NaUI=",
+      "BethanysPieShopHRM.App.pdb": "sha256-zDpVrIcJFXbTEtGdxCvAfKoJ3Q65xWqSSv7vl+GysPU=",
       "BethanysPieShopHRM.Shared.pdb": "sha256-fSSWB6\/O+meJ1mJB4uE\/n3IRcbJZST6v0wvXapriGgk="
     },
     "runtime": {

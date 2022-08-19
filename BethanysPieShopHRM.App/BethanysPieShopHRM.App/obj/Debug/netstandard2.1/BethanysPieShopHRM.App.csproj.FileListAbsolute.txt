@@ -745,6 +745,8 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysP
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\BethanysPieShopHRM.App.csproj.CopyComplete
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\BethanysPieShopHRM.App.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\BethanysPieShopHRM.App.pdb
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\HqcLrRg7h2IlOBsJB4aMGPHP6EHtaTmlnznmKh8pzPc=.hash
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\6DRNL4XOtW2AheEXqOMzSF5WGfZKECE4TM1LXn_NaUI=.hash
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\C2-ktp8Yt5Fdft-ydCovS9QckoCftARQ8w8hErAXNsk=.hash
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\RazorDeclaration\Components\AddEmployeeDialog.razor.g.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\Razor\Components\AddEmployeeDialog.razor.g.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\rzCwu4d4X-edVoquw_vEAslvd1Vcv_GwbHCHMafvcgE=.hash
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\zDpVrIcJFXbTEtGdxCvAfKoJ3Q65xWqSSv7vl_GysPU=.hash
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\9iv6VHmc6HwjOA6-mYMKGxH6A0LYKU5XnBz4mJInKW8=.hash

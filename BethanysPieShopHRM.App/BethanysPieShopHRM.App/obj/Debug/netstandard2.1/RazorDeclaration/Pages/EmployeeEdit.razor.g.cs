@@ -76,6 +76,13 @@ using BethanysPieShopHRM.App.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using BethanysPieShopHRM.App.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor"
 using BethanysPieShopHRM.Shared;
 
