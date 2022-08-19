@@ -1,7 +1,0 @@
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.csproj.AssemblyReference.cache
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.AssemblyInfoInputs.cache
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.AssemblyInfo.cs
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.csproj.CoreCompileInputs.cache
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.RazorAssemblyInfo.cache
-C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netstandard2.1\BethanysPieShopHRM.Api.RazorAssemblyInfo.cs

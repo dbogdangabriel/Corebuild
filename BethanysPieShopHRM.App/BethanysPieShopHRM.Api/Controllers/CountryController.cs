@@ -9,7 +9,7 @@ namespace BethanysPieShopHRM.Api.Controllers
     [ApiController]
     public class CountryController : Controller
     {
-        private readonly ICountryRepository _countryRepository; 
+        private readonly ICountryRepository _countryRepository;
 
         public CountryController(ICountryRepository countryRepository)
         {
