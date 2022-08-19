@@ -13,70 +13,70 @@ namespace BethanysPieShopHRM.App.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 1 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 2 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 3 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 4 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 5 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 6 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 7 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 8 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.App;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor"
+#line 9 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.App.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\03\demos\Demos\end\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor"
+#line 10 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.Shared;
 
 #line default
