@@ -1,7 +1,10 @@
-﻿@page "/employeedetail/{EmployeeId}"
+﻿
+@page "/employeedetail/{EmployeeId}"
 
 <section class="employee-detail">
+
     <h1 class="page-title">Details for @Employee.FirstName @Employee.LastName</h1>
+
 
     <div class="col-12 row">
         <div class="col-2">
@@ -107,6 +110,7 @@
                         <label type="text" readonly class="form-control-plaintext">@Employee.ExitDate?.ToShortDateString()</label>
                     </div>
                 </div>
+
             </div>
             <div class="col-xs-12 col-sm-4">
                 <div class="track-order-map">
@@ -115,5 +119,4 @@
             </div>
         </div>
     </div>
-
 </section>

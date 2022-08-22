@@ -1,0 +1,40 @@
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\bin\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.deps.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\bin\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\bin\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.AssemblyInfoInputs.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.AssemblyInfo.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorComponent.input.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Map\Map.razor.g.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorComponent.output.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\RazorDeclaration\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.TagHelpers.input.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.TagHelpers.output.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorCoreGenerate.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\Razor\Map\Map.razor.g.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\staticwebassets\BethanysPieShopHRM.ComponentsLibrary.StaticWebAssets.Manifest.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorTargetAssemblyInfo.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\bin\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.deps.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\bin\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\bin\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.AssemblyInfoInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.AssemblyInfo.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorComponent.input.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Map\Map.razor.g.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorComponent.output.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\RazorDeclaration\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.TagHelpers.input.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.TagHelpers.output.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorCoreGenerate.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\Razor\Map\Map.razor.g.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\staticwebassets\BethanysPieShopHRM.ComponentsLibrary.StaticWebAssets.Manifest.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.RazorTargetAssemblyInfo.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\obj\Debug\netstandard2.1\BethanysPieShopHRM.ComponentsLibrary.pdb

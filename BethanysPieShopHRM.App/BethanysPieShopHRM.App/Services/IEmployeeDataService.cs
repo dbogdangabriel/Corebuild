@@ -1,7 +1,5 @@
 ﻿using BethanysPieShopHRM.Shared;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.App.Services
@@ -15,4 +13,3 @@ namespace BethanysPieShopHRM.App.Services
         Task DeleteEmployee(int employeeId);
     }
 }
- 

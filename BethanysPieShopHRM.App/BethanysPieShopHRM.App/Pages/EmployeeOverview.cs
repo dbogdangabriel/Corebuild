@@ -11,18 +11,19 @@ namespace BethanysPieShopHRM.App.Pages
 {
     public partial class EmployeeOverview
     {
+        public IEnumerable<Employee> Employees { get; set; }
+
         [Inject]
         public IEmployeeDataService EmployeeDataService { get; set; }
 
-        public IEnumerable<Employee> Employees { get; set; }
-
         protected AddEmployeeDialog AddEmployeeDialog { get; set; }
+
         protected override async Task OnInitializedAsync()
         {
             Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
         }
 
-        public void QuickAddEmployee()
+        protected void QuickAddEmployee()
         {
             AddEmployeeDialog.Show();
         }
@@ -31,7 +32,6 @@ namespace BethanysPieShopHRM.App.Pages
         {
             Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
             StateHasChanged();
-
         }
     }
 }

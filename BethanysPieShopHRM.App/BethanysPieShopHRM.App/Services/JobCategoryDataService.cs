@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.App.Services
 {
-    public class JobCategoryDataService : IJobCategoryDataService
+    public class JobCategoryDataService: IJobCategoryDataService
     {
         private readonly HttpClient _httpClient;
 

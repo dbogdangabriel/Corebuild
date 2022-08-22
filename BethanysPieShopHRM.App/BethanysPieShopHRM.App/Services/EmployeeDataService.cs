@@ -9,13 +9,25 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.App.Services
 {
-    public class EmployeeDataService : IEmployeeDataService
+    public class EmployeeDataService: IEmployeeDataService
     {
         private readonly HttpClient _httpClient;
 
         public EmployeeDataService(HttpClient httpClient)
         {
             _httpClient = httpClient;
+        }
+
+        public async Task<IEnumerable<Employee>> GetAllEmployees()
+        {
+            return await JsonSerializer.DeserializeAsync<IEnumerable<Employee>>
+                (await _httpClient.GetStreamAsync($"api/employee"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<Employee> GetEmployeeDetails(int employeeId)
+        {
+            return await JsonSerializer.DeserializeAsync<Employee>
+                (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
         public async Task<Employee> AddEmployee(Employee employee)
@@ -45,19 +57,5 @@ namespace BethanysPieShopHRM.App.Services
         {
             await _httpClient.DeleteAsync($"api/employee/{employeeId}");
         }
-
-        public async Task<IEnumerable<Employee>> GetAllEmployees()
-        {
-            return await JsonSerializer.DeserializeAsync<IEnumerable<Employee>>
-                    (await _httpClient.GetStreamAsync($"api/employee"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
-        }
-
-        public async Task<Employee> GetEmployeeDetails(int employeeId)
-        {
-            return await JsonSerializer.DeserializeAsync<Employee>
-                (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
-        }
-
-       
     }
 }
