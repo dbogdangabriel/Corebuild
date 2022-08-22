@@ -12,57 +12,57 @@ namespace BethanysPieShopHRM.App.Pages
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
-#line 1 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 1 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
-#line 2 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 2 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
-#line 3 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 3 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
-#line 4 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 4 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
-#line 5 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 5 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
-#line 6 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 6 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
-#line 7 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 7 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.App;
 
 #line default
 #line hidden
-#line 8 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 8 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.App.Shared;
 
 #line default
 #line hidden
-#line 10 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 10 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.App.Components;
 
 #line default
 #line hidden
-#line 12 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 12 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.ComponentsLibrary;
 
 #line default
 #line hidden
-#line 13 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor"
+#line 13 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.ComponentsLibrary.Map;
 
 #line default

@@ -9,42 +9,42 @@ namespace BethanysPieShopHRM.ComponentsLibrary.Map
     #line hidden
     using System.Linq;
 #nullable restore
-#line 1 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 1 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
 using System;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 2 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
 using System.Collections.Generic;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 3 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
 using System.Threading.Tasks;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 4 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
 using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 5 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 6 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
 using BethanysPieShopHRM.ComponentsLibrary.Map;
 
 #line default
@@ -58,7 +58,7 @@ using BethanysPieShopHRM.ComponentsLibrary.Map;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
+#line 11 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShop.ComponentsLibrary\Map\Map.razor"
        
     string elementId = $"map-{Guid.NewGuid().ToString("D")}";
     
