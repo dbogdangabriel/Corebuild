@@ -1,3 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/BethanysPieShopHRM.ComponentsLibrary" Path="C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\wwwroot\" />
 </StaticWebAssets>

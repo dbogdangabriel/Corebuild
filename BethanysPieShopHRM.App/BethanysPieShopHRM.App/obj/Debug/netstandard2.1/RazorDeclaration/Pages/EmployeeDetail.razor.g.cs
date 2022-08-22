@@ -83,8 +83,22 @@ using BethanysPieShopHRM.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+#line 12 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using BethanysPieShopHRM.App.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using BethanysPieShopHRM.ComponentsLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using BethanysPieShopHRM.ComponentsLibrary.Map;
 
 #line default
 #line hidden
