@@ -1,0 +1,116 @@
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.App.StaticWebAssets.xml
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.StaticWebAssets.xml
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.exe
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.deps.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.runtimeconfig.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.runtimeconfig.dev.json
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.Views.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.Views.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.App.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Shared.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.App.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.ComponentsLibrary.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Shared.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.AssemblyInfoInputs.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.AssemblyInfo.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorAssemblyInfo.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorAssemblyInfo.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\staticwebassets\BethanysPieShopHRM.Server.StaticWebAssets.Manifest.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\staticwebassets\BethanysPieShopHRM.Server.StaticWebAssets.xml
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.TagHelpers.input.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.TagHelpers.output.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorCoreGenerate.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorTargetAssemblyInfo.cache
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorTargetAssemblyInfo.cs
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.Views.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.csproj.CopyComplete
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.dll
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.pdb
+C:\Users\bogdan.draghici\Desktop\getting-started-blazor (1)\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.genruntimeconfig.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.App.StaticWebAssets.xml
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.StaticWebAssets.xml
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.exe
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.deps.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.runtimeconfig.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.runtimeconfig.dev.json
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.Views.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.Views.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.App.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Shared.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.App.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.ComponentsLibrary.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\bin\Debug\netcoreapp3.1\BethanysPieShopHRM.Shared.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.csproj.AssemblyReference.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.AssemblyInfoInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.AssemblyInfo.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.csproj.CoreCompileInputs.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorAssemblyInfo.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorAssemblyInfo.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\staticwebassets\BethanysPieShopHRM.Server.StaticWebAssets.Manifest.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\staticwebassets\BethanysPieShopHRM.Server.StaticWebAssets.xml
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.TagHelpers.input.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.TagHelpers.output.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorCoreGenerate.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorTargetAssemblyInfo.cache
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.RazorTargetAssemblyInfo.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.Views.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.csproj.CopyComplete
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App\BethanysPieShopHRM.Server\obj\Debug\netcoreapp3.1\BethanysPieShopHRM.Server.genruntimeconfig.cache
