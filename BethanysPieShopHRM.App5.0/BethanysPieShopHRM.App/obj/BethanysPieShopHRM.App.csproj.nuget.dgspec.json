@@ -127,7 +127,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\BethanysPieShopHRM.App5.0\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj": {
+                "projectPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\BethanysPieShopHRM.App5.0\\BethanysPieShopHRM.Shared\\BethanysPieShopHRM.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

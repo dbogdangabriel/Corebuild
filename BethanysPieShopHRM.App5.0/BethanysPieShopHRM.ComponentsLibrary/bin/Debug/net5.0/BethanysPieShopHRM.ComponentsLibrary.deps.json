@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "BethanysPieShopHRM.ComponentsLibrary/1.0.0": {
         "dependencies": {
+          "BethanysPieShopHRM.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "5.0.0",
           "Microsoft.AspNetCore.Components.Web": "5.0.0",
           "Microsoft.CSharp": "5.0.0.0",
@@ -48,7 +49,7 @@
           "System.Collections.Immutable": "5.0.0.0",
           "System.Collections.NonGeneric": "5.0.0.0",
           "System.Collections.Specialized": "5.0.0.0",
-          "System.ComponentModel.Annotations": "5.0.0.0",
+          "System.ComponentModel.Annotations.Reference": "5.0.0.0",
           "System.ComponentModel.DataAnnotations": "4.0.0.0",
           "System.ComponentModel": "5.0.0.0",
           "System.ComponentModel.EventBasedAsync": "5.0.0.0",
@@ -343,6 +344,7 @@
           "lib/net5.0/Microsoft.JSInterop.dll": {}
         }
       },
+      "System.ComponentModel.Annotations/4.7.0": {},
       "System.IO.Pipelines/5.0.0": {
         "runtime": {
           "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
@@ -352,6 +354,17 @@
         },
         "compile": {
           "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        }
+      },
+      "BethanysPieShopHRM.Shared/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "BethanysPieShopHRM.Shared.dll": {}
+        },
+        "compile": {
+          "BethanysPieShopHRM.Shared.dll": {}
         }
       },
       "Microsoft.CSharp/5.0.0.0": {
@@ -432,7 +445,7 @@
         },
         "compileOnly": true
       },
-      "System.ComponentModel.Annotations/5.0.0.0": {
+      "System.ComponentModel.Annotations.Reference/5.0.0.0": {
         "compile": {
           "System.ComponentModel.Annotations.dll": {}
         },
@@ -1358,12 +1371,24 @@
       "path": "microsoft.jsinterop/5.0.0",
       "hashPath": "microsoft.jsinterop.5.0.0.nupkg.sha512"
     },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
     "System.IO.Pipelines/5.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-irMYm3vhVgRsYvHTU5b2gsT2CwT/SMM6LZFzuJjpIvT5Z4CshxNsaoBC1X/LltwuR3Opp8d6jOS/60WwOb7Q2Q==",
       "path": "system.io.pipelines/5.0.0",
       "hashPath": "system.io.pipelines.5.0.0.nupkg.sha512"
+    },
+    "BethanysPieShopHRM.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.CSharp/5.0.0.0": {
       "type": "referenceassembly",
@@ -1430,7 +1455,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.ComponentModel.Annotations/5.0.0.0": {
+    "System.ComponentModel.Annotations.Reference/5.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

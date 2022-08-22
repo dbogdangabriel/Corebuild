@@ -50,6 +50,13 @@ using BethanysPieShopHRM.ComponentsLibrary.Map;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
+using BethanysPieShopHRM.Shared;
+
+#line default
+#line hidden
+#nullable disable
     public partial class Map : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -58,7 +65,7 @@ using BethanysPieShopHRM.ComponentsLibrary.Map;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
+#line 12 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
        
 
     string elementId = $"map-{Guid.NewGuid().ToString("D")}";

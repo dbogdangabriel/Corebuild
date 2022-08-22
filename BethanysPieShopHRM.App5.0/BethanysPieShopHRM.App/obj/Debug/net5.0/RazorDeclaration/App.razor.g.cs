@@ -34,13 +34,6 @@ using Microsoft.AspNetCore.Components.Forms;
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\_Imports.razor"
-using Microsoft.AspNetCore.Components.Routing;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 5 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
@@ -103,6 +96,27 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\App.razor"
+using System.Reflection;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\App.razor"
+using Microsoft.AspNetCore.Components.Routing;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\App.razor"
+using Microsoft.AspNetCore.Components.WebAssembly.Services;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -110,6 +124,24 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 20 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\App.razor"
+       
+    private List<Assembly> lazyLoadedAssemblies = new List<Assembly>();
+
+    private async Task OnNavigateAsync(NavigationContext args)
+    {
+        if (args.Path.Contains("employeedetail"))
+        {
+            var assemblies = await LazyAssemblyLoader.LoadAssembliesAsync(new string[] { "BethanysPieShopHRM.ComponentsLibrary.dll" });
+            lazyLoadedAssemblies.AddRange(assemblies);
+        }
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private LazyAssemblyLoader LazyAssemblyLoader { get; set; }
     }
 }
 #pragma warning restore 1591

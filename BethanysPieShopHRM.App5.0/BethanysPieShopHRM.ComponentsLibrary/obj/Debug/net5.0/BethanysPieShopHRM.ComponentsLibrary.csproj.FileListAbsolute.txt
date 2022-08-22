@@ -21,3 +21,6 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\Bethan
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\refint\BethanysPieShopHRM.ComponentsLibrary.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.pdb
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\ref\BethanysPieShopHRM.ComponentsLibrary.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\bin\Debug\net5.0\BethanysPieShopHRM.Shared.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\bin\Debug\net5.0\BethanysPieShopHRM.Shared.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.csproj.CopyComplete

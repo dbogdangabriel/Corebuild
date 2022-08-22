@@ -108,20 +108,23 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "d-flex");
             __builder.AddAttribute(2, "id", "wrapper");
-            __builder.OpenComponent<BethanysPieShopHRM.App.Shared.NavMenu>(3);
+            __builder.AddAttribute(3, "b-5mb71cu944");
+            __builder.OpenComponent<BethanysPieShopHRM.App.Shared.NavMenu>(4);
             __builder.CloseComponent();
-            __builder.AddMarkupContent(4, "\r\n\r\n        ");
-            __builder.OpenElement(5, "div");
-            __builder.AddAttribute(6, "id", "page-content-wrapper");
-            __builder.AddMarkupContent(7, @"<nav class=""navbar navbar-expand-lg navbar-light border-bottom""><div class=""collapse navbar-collapse"" id=""navbarSupportedContent""><h3 class=""title"">Bethany's Pie Shop HRM </h3>
-                    <ul class=""navbar-nav ml-auto mt-2 mt-lg-0""></ul></div></nav>
+            __builder.AddMarkupContent(5, "\r\n\r\n        ");
+            __builder.OpenElement(6, "div");
+            __builder.AddAttribute(7, "id", "page-content-wrapper");
+            __builder.AddAttribute(8, "b-5mb71cu944");
+            __builder.AddMarkupContent(9, @"<nav class=""navbar navbar-expand-lg navbar-light border-bottom"" b-5mb71cu944><div class=""collapse navbar-collapse"" id=""navbarSupportedContent"" b-5mb71cu944><h3 class=""title"" b-5mb71cu944>Bethany's Pie Shop HRM </h3>
+                    <ul class=""navbar-nav ml-auto mt-2 mt-lg-0"" b-5mb71cu944></ul></div></nav>
 
             ");
-            __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", "container-fluid");
+            __builder.OpenElement(10, "div");
+            __builder.AddAttribute(11, "class", "container-fluid");
+            __builder.AddAttribute(12, "b-5mb71cu944");
 #nullable restore
 #line 19 "C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\Shared\MainLayout.razor"
-__builder.AddContent(10, Body);
+__builder.AddContent(13, Body);
 
 #line default
 #line hidden

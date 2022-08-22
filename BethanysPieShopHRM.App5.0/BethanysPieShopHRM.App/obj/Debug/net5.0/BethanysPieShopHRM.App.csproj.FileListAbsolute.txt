@@ -644,3 +644,7 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\Bethan
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\ref\BethanysPieShopHRM.App.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\RazorDeclaration\Pages\EmployeeOverviewVirtual.razor.g.cs
 C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\Razor\Pages\EmployeeOverviewVirtual.razor.g.cs
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\projectbundle\BethanysPieShopHRM.App.bundle.scp.css
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\bogdan.draghici\source\repos\Corebuild\BethanysPieShopHRM.App5.0\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
