@@ -1,6 +1,7 @@
 using BethanysPieShopHRM.Api.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -28,14 +29,14 @@ namespace BethanysPieShopHRM.Api
             services.AddScoped<ICountryRepository, CountryRepository>();
             services.AddScoped<IJobCategoryRepository, JobCategoryRepository>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-            services.AddCors(options =>
+			services.AddCors(options =>
             {
                 options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             });
 
             services.AddControllers();
-                //.AddJsonOptions(options => options.JsonSerializerOptions.ca);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +46,8 @@ namespace BethanysPieShopHRM.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseStaticFiles(); // middleware enable ASP.net core, to serve img files to wwwroot folder
 
             app.UseHttpsRedirection();
 
