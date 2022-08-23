@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Pluralsight\\BlazorEnterprise\\externalSrc\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj": {}
+    "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\externalAPI-blazor-enterprise\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj": {}
   },
   "projects": {
-    "F:\\Pluralsight\\BlazorEnterprise\\externalSrc\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj": {
+    "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\externalAPI-blazor-enterprise\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Pluralsight\\BlazorEnterprise\\externalSrc\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj",
+        "projectUniqueName": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\externalAPI-blazor-enterprise\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj",
         "projectName": "RecruitingAPI",
-        "projectPath": "F:\\Pluralsight\\BlazorEnterprise\\externalSrc\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj",
-        "packagesPath": "C:\\Users\\alexr\\.nuget\\packages\\",
-        "outputPath": "F:\\Pluralsight\\BlazorEnterprise\\externalSrc\\RecruitingAPI\\RecruitingAPI\\obj\\",
+        "projectPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\externalAPI-blazor-enterprise\\RecruitingAPI\\RecruitingAPI\\RecruitingAPI.csproj",
+        "packagesPath": "C:\\Users\\bogdan.draghici\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\externalAPI-blazor-enterprise\\RecruitingAPI\\RecruitingAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogdan.draghici\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,12 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "F:\\NuGet": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -42,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -54,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,7 +67,15 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -76,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
