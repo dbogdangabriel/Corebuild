@@ -1,0 +1,46 @@
+﻿@page "/DataTables"
+@using Syncfusion.Blazor.Grids
+@using System.Net.Http.Json
+@inject HttpClient httpClient
+
+
+<h1>Syncfusion DataTable</h1>
+<SfGrid DataSource="@Orders">
+    <GridColumns>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Right" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+<h1>MudBlazor DataTable</h1>
+<MudTable Items="@Orders" Hover="true">
+    <HeaderContent>
+        <MudTh>Order ID</MudTh>
+        <MudTh>Customer Name</MudTh>
+        <MudTh>Order Date</MudTh>
+        <MudTh>Freight</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Order Id">@context.OrderID</MudTd>
+        <MudTd DataLabel="Customer Name">@context.CustomerID</MudTd>
+        <MudTd DataLabel="Order Date">@context.OrderDate</MudTd>
+        <MudTd DataLabel="Freight">@context.Freight</MudTd>
+
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[]{0,10}" />
+    </PagerContent> 
+</MudTable>
+
+<h1>Radzen DataTable</h1>
+<RadzenDataGrid TItem="Order" Data="@Orders">
+    <Columns>
+        <RadzenDataGridColumn TItem="Order" Property="OrderID" Title="Order Id" />
+        <RadzenDataGridColumn TItem="Order" Property="CustomerID" Title="Customer Name" />
+        <RadzenDataGridColumn TItem="Order" Property="OrderDate" Title="Order Date" />
+        <RadzenDataGridColumn TItem="Order" Property="Freight" Title="Freight" />
+
+    </Columns>
+</RadzenDataGrid>
