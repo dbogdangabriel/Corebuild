@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace BethanysPieShopHRM.UI.Services
 {
-    public class EmployeeDataService: IEmployeeDataService, IPieShopAPI
+    public class EmployeeDataService: IEmployeeDataService
     {
         private readonly HttpClient _httpClient;
 

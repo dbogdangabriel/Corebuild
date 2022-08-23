@@ -6,6 +6,7 @@ using BethanysPieShopHRM.UI.Components;
 using BethanysPieShopHRM.UI.Services;
 using BethanysPieShopHRM.Shared;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.ProtectedBrowserStorage;
 
 namespace BethanysPieShopHRM.UI.Pages
 {
@@ -22,6 +23,7 @@ namespace BethanysPieShopHRM.UI.Pages
 
         [Inject]
         public IExpenseApprovalService ExpenseApprovalService { get; set; }
+
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
@@ -45,10 +47,10 @@ namespace BethanysPieShopHRM.UI.Pages
 
             int.TryParse(ExpenseId, out var expenseId);
 
-            if(expenseId != 0)
+            if (expenseId != 0)
             {
                 Expense = await ExpenseDataService.GetExpenseById(int.Parse(ExpenseId));
-            } 
+            }
             else
             {
                 Expense = new Expense() { EmployeeId = 1, CurrencyId = 1, Status = ExpenseStatus.Open, ExpenseType = ExpenseType.Other };
@@ -70,7 +72,7 @@ namespace BethanysPieShopHRM.UI.Pages
             {
                 await ExpenseDataService.AddExpense(Expense);
                 NavigationManager.NavigateTo("/expenses");
-            } 
+            }
             else
             {
                 await ExpenseDataService.UpdateExpense(Expense);

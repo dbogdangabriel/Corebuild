@@ -6,7 +6,7 @@ using BethanysPieShopHRM.Shared;
 
 namespace BethanysPieShopHRM.UI.Services
 {
-    public class JobCategoryDataService : IJobCategoryDataService, IPieShopAPI
+    public class JobCategoryDataService : IJobCategoryDataService
     {
         private readonly HttpClient _httpClient;
 

@@ -35,11 +35,11 @@ namespace BethanysPieShopHRM.UI.Pages
 
         public InputText LastNameInputText { get; set; }
 
-        public Employee Employee { get; set; } = new Employee {
-            Address = new Address(),
-            Contact = new Contact(),
-            JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now 
-        };
+        public Employee Employee { get; set; } = new Employee();
+
+        //needed to bind to select to value
+        protected string CountryId = string.Empty;
+        protected string JobCategoryId = string.Empty;
 
         //used to store state of screen
         protected string Message = string.Empty;
@@ -57,14 +57,31 @@ namespace BethanysPieShopHRM.UI.Pages
 
             int.TryParse(EmployeeId, out var employeeId);
 
-            if (employeeId != 0) //new employee is being created
+            var savedEmployee = await LocalStorageService.GetAsync<Employee>("Employee");
+
+            if(savedEmployee != null && employeeId == 0)
+            {
+                Employee = savedEmployee;
+            }
+            else if (employeeId == 0) //new employee is being created
+            {
+                //add some defaults
+                Employee = new Employee { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now };
+            }
+            else
             {
                 Employee = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
             }
+
+            CountryId = Employee.CountryId.ToString();
+            JobCategoryId = Employee.JobCategoryId.ToString();
         }
 
         protected async Task HandleValidSubmit()
         {
+            Employee.CountryId = int.Parse(CountryId);
+            Employee.JobCategoryId = int.Parse(JobCategoryId);
+
             if (Employee.EmployeeId == 0) //new
             {
                 var addedEmployee = await EmployeeDataService.AddEmployee(Employee);
@@ -107,6 +124,12 @@ namespace BethanysPieShopHRM.UI.Pages
             Message = "Deleted successfully";
 
             Saved = true;
+        }
+
+        protected async void TempSave()
+        {
+            await LocalStorageService.SetAsync("Employee", Employee);
+            NavigationManager.NavigateTo("/employeeoverview");
         }
 
         protected void NavigateToOverview()

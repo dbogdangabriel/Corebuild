@@ -308,11 +308,6 @@ a[data-toggle="collapse"] {
     display: none;
 }
 
-.validation-message {
-    margin-left: 25px;
-    color: red;
-}
-
 #sidebar .toggle-hide {
     display: none;
 }

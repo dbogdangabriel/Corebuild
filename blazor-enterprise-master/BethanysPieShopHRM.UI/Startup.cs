@@ -6,7 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BethanysPieShopHRM.UI.Services;
 using BethanysPieShopHRM.UI.Data;
-using System;
+using Blazor.FlexGrid;
+using BethanysPieShopHRM.UI.Pages;
 
 namespace BethanysPieShopHRM.UI
 {
@@ -25,35 +26,27 @@ namespace BethanysPieShopHRM.UI
         {
             services.AddRazorPages();
             services.AddServerSideBlazor().AddCircuitOptions(options => { options.DetailedErrors = true; });
-
-
-            var pieShopURI = new Uri("https://localhost:44340/");
-            var recruitingURI = new Uri("https://localhost:5001/");
-
-            void RegisterTypedClient<TClient, TImplementation>(Uri apiBaseUrl) 
-                where TClient : class where TImplementation : class, TClient
+            
+            services.AddScoped<HttpClient>(s =>
             {
-                services.AddHttpClient<TClient, TImplementation>(client =>
-                {
-                    client.BaseAddress = apiBaseUrl;
-                });
-            }
+                var client = new HttpClient { BaseAddress = new System.Uri("https://localhost:44340/") }; 
+                return client;
+            });
 
-            // HTTP services
-            RegisterTypedClient<IEmployeeDataService, EmployeeDataService>(pieShopURI);
-            RegisterTypedClient<ICountryDataService, CountryDataService>(pieShopURI);
-            RegisterTypedClient<IJobCategoryDataService, JobCategoryDataService>(pieShopURI);
-            RegisterTypedClient<ITaskDataService, TaskDataService>(pieShopURI);
-            RegisterTypedClient<ISurveyDataService, SurveyDataService>(pieShopURI);
-            RegisterTypedClient<ICurrencyDataService, CurrencyDataService>(pieShopURI);
-            RegisterTypedClient<IExpenseDataService, ExpenseDataService>(pieShopURI);
-            RegisterTypedClient<IJobDataService, JobsDataService>(recruitingURI);
-
-
-            // Helper services
+            services.AddScoped<IEmployeeDataService, EmployeeDataService>();
+            services.AddTransient<ICountryDataService, CountryDataService>();
+            services.AddTransient<IJobCategoryDataService, JobCategoryDataService>();
+            services.AddTransient<IExpenseDataService, ExpenseDataService>();
+            services.AddTransient<ITaskDataService, TaskDataService>();
             services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<ISurveyDataService, SurveyDataService>();
+            services.AddTransient<ICurrencyDataService, CurrencyDataService>();
             services.AddTransient<IExpenseApprovalService, ManagerApprovalService>();
             services.AddProtectedBrowserStorage();
+            services.AddFlexGridServerSide(cfg =>
+            {
+                cfg.ApplyConfiguration(new ExpenseGridConfiguration());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,7 +65,7 @@ namespace BethanysPieShopHRM.UI
 
             // app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseFlexGrid(env.WebRootPath);
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

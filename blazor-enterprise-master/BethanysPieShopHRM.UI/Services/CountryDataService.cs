@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.UI.Services
 {
-    public class CountryDataService : ICountryDataService, IPieShopAPI
+    public class CountryDataService : ICountryDataService
     {
         private readonly HttpClient _httpClient;
 

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShopHRM.UI.Services
 {
-    public class CurrencyDataService : ICurrencyDataService, IPieShopAPI
+    public class CurrencyDataService : ICurrencyDataService
     {
         private readonly HttpClient _httpClient;
 

@@ -9,7 +9,7 @@ using BethanysPieShopHRM.Shared;
 
 namespace BethanysPieShopHRM.UI.Services
 {
-    public class ExpenseDataService : IExpenseDataService, IPieShopAPI
+    public class ExpenseDataService : IExpenseDataService
     {
         private readonly HttpClient _httpClient;
 
