@@ -30,7 +30,7 @@ namespace BethanysPieShopHRM.UI.Pages
                 Job = await JobDataService.GetJobById(JobId);
             }
         }
-         
+
         protected async Task HandleValidSubmit()
         {
             if (Job.Id== 0) // New 
