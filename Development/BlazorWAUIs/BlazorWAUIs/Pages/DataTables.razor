@@ -1,23 +1,31 @@
 ﻿@page "/DataTables"
+@using Radzen
 @using Syncfusion.Blazor.Grids
 @using System.Net.Http.Json
 @inject HttpClient httpClient
 
 
 <h1>Syncfusion DataTable</h1>
-<SfGrid DataSource="@Orders">
+<SfGrid DataSource="@Orders" AllowPaging="true">
+    <GridPageSettings PageSize="10"></GridPageSettings>
     <GridColumns>
-        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID"  Width="120"></GridColumn>
         <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" Width="150"></GridColumn>
-        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Right" Width="130"></GridColumn>
-        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" Format="d" Type="ColumnType.Date" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2"  Width="120"></GridColumn>
     </GridColumns>
 </SfGrid>
 
 <h1>MudBlazor DataTable</h1>
-<MudTable Items="@Orders" Hover="true">
-    <HeaderContent>
-        <MudTh>Order ID</MudTh>
+<MudTable Items="@Orders" Dense="true" Hover="true" Bordered="true" >
+    <ColGroup>
+        <col style="width: 60px; color:aqua;  text-align: center;" />
+        <col style="width: 60px; color:aqua;  text-align: center;" />
+        <col style="width: 60px; color:aqua;  text-align: center;" />
+        <col style="width: 60px; color:aqua;  text-align: center;" />
+    </ColGroup>
+    <HeaderContent  >
+        <MudTh >Order ID</MudTh>
         <MudTh>Customer Name</MudTh>
         <MudTh>Order Date</MudTh>
         <MudTh>Freight</MudTh>
@@ -35,7 +43,14 @@
 </MudTable>
 
 <h1>Radzen DataTable</h1>
-<RadzenDataGrid TItem="Order" Data="@Orders">
+
+<div style="display: flex; align-items: center; margin-bottom: 16px">
+    <div style="white-space:nowrap; margin-right: 16px">Pager Position:</div>
+    <RadzenDropDown @bind-Value="@pagerPosition" TextProperty="Text" ValueProperty="Value"
+                    Data="@(Enum.GetValues(typeof(PagerPosition)).Cast<PagerPosition>().Select(t => new { Text = $"{t}", Value = t }))" />
+</div>
+
+<RadzenDataGrid TItem="Order" Data="@Orders" PagerPosition="@pagerPosition" AllowPaging="true" AllowSorting="true">
     <Columns>
         <RadzenDataGridColumn TItem="Order" Property="OrderID" Title="Order Id" />
         <RadzenDataGridColumn TItem="Order" Property="CustomerID" Title="Customer Name" />
@@ -44,3 +59,4 @@
 
     </Columns>
 </RadzenDataGrid>
+
