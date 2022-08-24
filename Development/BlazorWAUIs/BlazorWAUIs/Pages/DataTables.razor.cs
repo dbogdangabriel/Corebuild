@@ -6,6 +6,7 @@ namespace BlazorWAUIs.Pages
     public partial class DataTables
     {
         PagerPosition pagerPosition = PagerPosition.Bottom;
+
         public List<Order> Orders { get; set; }
 
         protected override async Task OnInitializedAsync()

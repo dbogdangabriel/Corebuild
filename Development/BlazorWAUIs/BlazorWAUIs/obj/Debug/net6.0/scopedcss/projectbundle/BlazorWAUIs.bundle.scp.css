@@ -7,9 +7,63 @@
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
-[b-i8sruv7l3s] table {
-    border: 2px solid red;
+
+.e-grid .e-gridheader .e-headercell.e-attr .e-headercelldiv[b-i8sruv7l3s] {
+    text-align: center !important;
+}
+
+.e-attr[b-i8sruv7l3s] {
+    text-align: center !important;
+}
+
+
+.mud-td-row[b-i8sruv7l3s] {
+    text-align: center;
+}
+
+
+.pa-4[b-i8sruv7l3s] {
+    color: white !important;
+    background-color: gray;
+    text-align: center;
+}
+
+.mud-table-head .header-centered th[b-i8sruv7l3s] {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.mud-table-cell th[b-i8sruv7l3s] {
+    text-align: center;
+}
+
+
+
+.rz-datatable-thead th[b-i8sruv7l3s], .rz-grid-table thead th[b-i8sruv7l3s] {
+    background-color: gray;
+    padding: 0.5rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #e9eaed;
+}
+
+.rz-datatable-thead th .rz-column-title[b-i8sruv7l3s], .rz-grid-table thead th .rz-column-title[b-i8sruv7l3s] {
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: none;
+    text-align: center;
+    color: white;
+    padding: 0 0.125rem 0 0.5rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.rz-grid-table[b-i8sruv7l3s] {
+    text-align: center;
 }
 /* /Pages/Index.razor.rz.scp.css */
 /* /Shared/MainLayout.razor.rz.scp.css */

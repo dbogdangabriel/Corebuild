@@ -5,37 +5,8 @@
 @inject HttpClient httpClient
 
 <style>
-    .e-grid .e-headercell {
-        background-color: gray;
-    }
+  
 
-    .e-headercell {
-        color: white;
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    * {
-        text-align: center;
-    }
-
-    .pa-4 {
-        color: white !important;
-        background-color: gray;
-    }
-       
-    .mud-table-head .header-centered th {
-        text-align: center;
-        font-size: 1.2em;
-    }
-
-    .mud-table-foot .bold-text .mud-table-cell {
-        font-weight: 500;
-    }
-     .row-highlight{
-        background-color: lightgoldenrodyellow;
-    }
 
 </style>
 
@@ -43,26 +14,26 @@
 <SfGrid DataSource="@Orders" AllowPaging="true">
     <GridPageSettings PageSize="10"></GridPageSettings>
     <GridColumns>
-        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" Width="120"></GridColumn>
-        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" Width="150"></GridColumn>
-        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" Format="d" Type="ColumnType.Date" Width="130"></GridColumn>
-        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})" Format="d" Type="ColumnType.Date" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})" Format="C2" Width="120"></GridColumn>
     </GridColumns>
 </SfGrid>
 
 <h1>MudBlazor DataTable</h1>
-<MudTable Items="@Orders" Class="mt-5" Dense="true" Hover="true" Bordered="true" Striped="true" CanCancelEdit="true" CustomHeader="true">
-    <HeaderContent>
+<MudTable Items="@Orders" Dense="true" Hover="true" Bordered="true" Striped="true" CanCancelEdit="true" CustomHeader="true">
+    <HeaderContent >
         <MudTh Class="pa-4">Order ID</MudTh>
         <MudTh Class="pa-4">Customer Name</MudTh>
         <MudTh Class="pa-4">Order Date</MudTh>
         <MudTh Class="pa-4">Freight</MudTh>
     </HeaderContent>
     <RowTemplate>
-        <MudTd DataLabel="Order Id">@context.OrderID</MudTd>
-        <MudTd DataLabel="Customer Name">@context.CustomerID</MudTd>
-        <MudTd DataLabel="Order Date">@context.OrderDate</MudTd>
-        <MudTd DataLabel="Freight">@context.Freight</MudTd>
+        <MudTd Class="mud-td-row" DataLabel="Order Id">@context.OrderID</MudTd>
+        <MudTd Class="mud-td-row" DataLabel="Customer Name">@context.CustomerID</MudTd>
+        <MudTd Class="mud-td-row" DataLabel="Order Date">@context.OrderDate</MudTd>
+        <MudTd Class="mud-td-row" DataLabel="Freight">@context.Freight</MudTd>
 
     </RowTemplate>
     <PagerContent>
@@ -72,13 +43,9 @@
 
 <h1>Radzen DataTable</h1>
 
-<div style="display: flex; align-items: center; margin-bottom: 16px">
-    <div style="white-space:nowrap; margin-right: 16px">Pager Position:</div>
-    <RadzenDropDown @bind-Value="@pagerPosition" TextProperty="Text" ValueProperty="Value"
-                    Data="@(Enum.GetValues(typeof(PagerPosition)).Cast<PagerPosition>().Select(t => new { Text = $"{t}", Value = t }))" />
-</div>
 
-<RadzenDataGrid TItem="Order" Data="@Orders" PagerPosition="@pagerPosition" AllowPaging="true" AllowSorting="true">
+
+<RadzenDataGrid TItem="Order" Data="@Orders" PagerPosition="@pagerPosition" AllowPaging="true" AllowSorting="true" style="border-top: 1px solid #000000;">
     <Columns>
         <RadzenDataGridColumn TItem="Order" Property="OrderID" Title="Order Id" />
         <RadzenDataGridColumn TItem="Order" Property="CustomerID" Title="Customer Name" />
