@@ -22,26 +22,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTableMudBlazor.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlTXVkQmxhem9yLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTables.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTablesRadzen.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlc1JhZHplbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTableSyncfusion.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlU3luY2Z1c2lvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -49,6 +29,14 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-i8sruv7l3s
+
+[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ouaimpgmhp
 
 [C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
