@@ -1,0 +1,19 @@
+﻿@page "/DataTableSyncfusion"
+@using BlazorWAUIs.Pages
+@using System.Net.Http.Json
+@inject HttpClient httpClient
+
+
+
+<h1>Syncfusion DataTable</h1>
+<SfGrid DataSource="@Orders" AllowPaging="true">
+    <GridPageSettings PageSize="10"></GridPageSettings>
+    <GridColumns>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID"  Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" Format="d" Type="ColumnType.Date" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2"  Width="120"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+

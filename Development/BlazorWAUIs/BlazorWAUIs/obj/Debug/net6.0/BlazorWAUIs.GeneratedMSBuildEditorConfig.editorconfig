@@ -22,8 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTableMudBlazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlTXVkQmxhem9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTables.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTablesRadzen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlc1JhZHplbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/DataTableSyncfusion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlU3luY2Z1c2lvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bogdan.draghici/source/repos/Corebuild/Development/BlazorWAUIs/BlazorWAUIs/Pages/Index.razor]

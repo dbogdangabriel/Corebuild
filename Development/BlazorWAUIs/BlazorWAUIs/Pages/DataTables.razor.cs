@@ -1,15 +1,20 @@
-﻿using Radzen;
+<<<<<<< HEAD
+﻿
+
+using Radzen;
 
 namespace BlazorWAUIs.Pages
+=======
+﻿namespace BlazorWAUIs.Pages
+>>>>>>> parent of c19894c (Update)
 {
     public partial class DataTables
     {
-        PagerPosition pagerPosition = PagerPosition.Bottom;
         public List<Order> Orders { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
-            Orders = Enumerable.Range(0, 20).Select(x => new Order()
+            Orders = Enumerable.Range(0, 10).Select(x => new Order()
             {
                 OrderID = 1 + x,
                 CustomerID = (new string[] { "ALFKI", "ANANTR", "ANTON", "BLONP", "BOLID" })[new Random().Next(5)],
