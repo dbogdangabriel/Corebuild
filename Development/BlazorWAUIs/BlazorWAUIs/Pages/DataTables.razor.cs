@@ -1,11 +1,14 @@
 
 using Radzen;
+using Syncfusion.Blazor.Grids;
 
 namespace BlazorWAUIs.Pages
 {
     public partial class DataTables
     {
         PagerPosition pagerPosition = PagerPosition.Bottom;
+        public SfGrid<Order> OrdersGrid { get; set; }
+
 
         public List<Order> Orders { get; set; }
 

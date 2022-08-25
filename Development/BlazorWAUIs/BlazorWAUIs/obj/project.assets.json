@@ -478,7 +478,7 @@
           }
         }
       },
-      "Radzen.Blazor/3.20.5": {
+      "Radzen.Blazor/3.20.6": {
         "type": "package",
         "dependencies": {
           "LibSassBuilder": "2.0.1",
@@ -1160,7 +1160,7 @@
           }
         }
       },
-      "Radzen.Blazor/3.20.5": {
+      "Radzen.Blazor/3.20.6": {
         "type": "package",
         "dependencies": {
           "LibSassBuilder": "2.0.1",
@@ -2256,10 +2256,10 @@
         "packageIcon.png"
       ]
     },
-    "Radzen.Blazor/3.20.5": {
-      "sha512": "xdyNhYzSEW/qEPyGLCtktQz31ivoE3B+G04+qH+ztHUqrM3OVWiiBm0R2YgOAUG4afjl4VjNvnMWdbErIQay7Q==",
+    "Radzen.Blazor/3.20.6": {
+      "sha512": "R6yTHwnYCRP6um2aDehaxGVcr35mi1l3+NQ+/4IZGiKnFl6+oSVKHc+AXEMIEvJVDWaoTGIgt0uW/qoX0m6B1g==",
       "type": "package",
-      "path": "radzen.blazor/3.20.5",
+      "path": "radzen.blazor/3.20.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2275,7 +2275,7 @@
         "lib/net6.0/Radzen.Blazor.xml",
         "lib/netstandard2.1/Radzen.Blazor.dll",
         "lib/netstandard2.1/Radzen.Blazor.xml",
-        "radzen.blazor.3.20.5.nupkg.sha512",
+        "radzen.blazor.3.20.6.nupkg.sha512",
         "radzen.blazor.nuspec",
         "staticwebassets/Radzen.Blazor.js",
         "staticwebassets/css/dark-base.css",
@@ -2691,7 +2691,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8",
       "MudBlazor >= 6.0.14",
-      "Radzen.Blazor >= 3.20.5",
+      "Radzen.Blazor >= 3.20.6",
       "Syncfusion.Blazor >= 20.2.0.45"
     ]
   },
@@ -2754,7 +2754,7 @@
           },
           "Radzen.Blazor": {
             "target": "Package",
-            "version": "[3.20.5, )"
+            "version": "[3.20.6, )"
           },
           "Syncfusion.Blazor": {
             "target": "Package",

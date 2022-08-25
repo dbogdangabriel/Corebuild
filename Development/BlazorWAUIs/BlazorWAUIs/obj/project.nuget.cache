@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IfEqsy2v4qfM5dlDYWt/lVZHUqogSkYEjM8VfiB43e0GLEnJKmbA2T1SdTOiGT5B9Jujw+UXP+h3Yx5d9FeNxQ==",
+  "dgSpecHash": "h58SwZubWXIEYVtPSivnU9dMKJ9zGCAn0V2B9Or6haRaIE2YYFG7xDPfc7IsUkbJQXspMAMN+wV1eF/awHCNoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorWAUIs\\BlazorWAUIs\\BlazorWAUIs.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\mudblazor\\6.0.14\\mudblazor.6.0.14.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\radzen.blazor\\3.20.5\\radzen.blazor.3.20.5.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\radzen.blazor\\3.20.6\\radzen.blazor.3.20.6.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\syncfusion.blazor\\20.2.0.45\\syncfusion.blazor.20.2.0.45.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\syncfusion.excelexport.net.core\\20.2.0.45\\syncfusion.excelexport.net.core.20.2.0.45.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\syncfusion.licensing\\20.2.0.45\\syncfusion.licensing.20.2.0.45.nupkg.sha512",

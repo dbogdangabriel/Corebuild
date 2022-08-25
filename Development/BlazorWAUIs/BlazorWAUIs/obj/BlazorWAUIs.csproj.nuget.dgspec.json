@@ -59,7 +59,7 @@
             },
             "Radzen.Blazor": {
               "target": "Package",
-              "version": "[3.20.5, )"
+              "version": "[3.20.6, )"
             },
             "Syncfusion.Blazor": {
               "target": "Package",

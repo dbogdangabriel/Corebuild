@@ -8,49 +8,49 @@ h1[b-i8sruv7l3s] {
     color:aqua;
 }
 
-[b-i8sruv7l3s] .e-grid .e-headercell {
+.e-grid .e-headercell[b-i8sruv7l3s] {
     background-color: gray;
 }
 
-[b-i8sruv7l3s] .e-headercell {
+.e-headercell[b-i8sruv7l3s] {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
 
-[b-i8sruv7l3s] .e-grid .e-gridheader .e-headercell.e-attr .e-headercelldiv {
+.e-grid .e-gridheader .e-headercell.e-attr .e-headercelldiv[b-i8sruv7l3s] {
     text-align: center !important;
 }
 
-[b-i8sruv7l3s] .e-attr {
+.e-attr[b-i8sruv7l3s] {
     text-align: center !important;
 }
 
 
-[b-i8sruv7l3s] .mud-td-row {
+.mud-td-row[b-i8sruv7l3s] {
     text-align: center;
 }
 
 
-[b-i8sruv7l3s] .pa-4 {
+.pa-4[b-i8sruv7l3s] {
     color: white !important;
     background-color: gray;
     text-align: center;
 }
 
-[b-i8sruv7l3s] .mud-table-head .header-centered th {
+.mud-table-head .header-centered th[b-i8sruv7l3s] {
     text-align: center;
     font-size: 1.2em;
 }
 
-[b-i8sruv7l3s] .mud-table-cell th {
+.mud-table-cell th[b-i8sruv7l3s] {
     text-align: center;
 }
 
 
 
-[b-i8sruv7l3s] .rz-datatable-thead th, .rz-grid-table thead th[b-i8sruv7l3s] {
+.rz-datatable-thead th[b-i8sruv7l3s], .rz-grid-table thead th[b-i8sruv7l3s] {
     background-color: gray;
     padding: 0.5rem 0;
     white-space: nowrap;
@@ -59,24 +59,20 @@ h1[b-i8sruv7l3s] {
     border-bottom: 1px solid #e9eaed;
 }
 
-[b-i8sruv7l3s] .rz-datatable-thead th .rz-column-title, .rz-grid-table thead th .rz-column-title[b-i8sruv7l3s] {
-    display: inline-block;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    text-transform: none;
-    text-align: center;
-    color: white;
-    padding: 0 0.125rem 0 0.5rem;
-    font-weight: 600;
-    vertical-align: middle;
-}
+    .rz-datatable-thead th .rz-column-title[b-i8sruv7l3s], .rz-grid-table thead th .rz-column-title[b-i8sruv7l3s] {
+        display: inline-block;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        text-transform: none;
+        text-align: center;
+        color: white;
+        padding: 0 0.125rem 0 0.5rem;
+        font-weight: 600;
+        vertical-align: middle;
+    }
 
-[b-i8sruv7l3s] .rz-grid-table {
+.rz-grid-table[b-i8sruv7l3s] {
     text-align: center;
-}
-
-[b-i8sruv7l3s] .e-grid .e-altrow {
-    background-color: violet;
 }
 /* /Pages/Index.razor.rz.scp.css */
 /* /Shared/MainLayout.razor.rz.scp.css */

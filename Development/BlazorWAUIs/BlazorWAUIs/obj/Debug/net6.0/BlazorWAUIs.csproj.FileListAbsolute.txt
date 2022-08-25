@@ -650,7 +650,6 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWA
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\Ah1HWRh9.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\vUwfQRdI.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\bdp+WmvF.gz
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\wTUIKY17.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\r9nnneCg.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\YpkDuifw.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\NrxBvqZK.gz
@@ -847,3 +846,4 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWA
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\refint\BlazorWAUIs.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\BlazorWAUIs.pdb
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\ref\BlazorWAUIs.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorWAUIs\BlazorWAUIs\obj\Debug\net6.0\build-gz\qQK+Okt1.gz
