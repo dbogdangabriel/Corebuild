@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e7YoNIh6KKCVQFyC4vSHr4MUn9MhktupGNTxhAYKPMU=",
+  "Hash": "aKEwy2P+nVZOoJWKm8WZgklHx3badI6mBZ58LGHbWYE=",
   "Source": "BlazorSyncfusion",
   "BasePath": "/",
   "Mode": "Root",
@@ -8942,12 +8942,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\wwwroot\\sample-data\\weather.json",
+      "Identity": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\wwwroot\\sample-data\\Orders.json",
       "SourceId": "BlazorSyncfusion",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
+      "RelativePath": "sample-data/Orders.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8956,7 +8956,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+      "OriginalItemSpec": "wwwroot\\sample-data\\Orders.json"
     }
   ]
 }

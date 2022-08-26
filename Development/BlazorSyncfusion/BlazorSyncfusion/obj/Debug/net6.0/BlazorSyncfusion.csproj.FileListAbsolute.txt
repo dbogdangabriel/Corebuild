@@ -11,6 +11,9 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.8.5qvbcwublj.js
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.ReduxDevTools.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
@@ -273,6 +276,7 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\icudt.dat.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Security.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
@@ -359,6 +363,7 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.ReduxDevTools.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Syncfusion.Blazor.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
@@ -379,6 +384,7 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.ObjectModel.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.dll.gz
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm.gz
@@ -416,6 +422,9 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\BlazorSyncfusion.staticwebassets.runtime.json
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\BlazorSyncfusion.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\BlazorSyncfusion.pdb
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Fluxor.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Fluxor.Blazor.Web.dll
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Fluxor.Blazor.Web.ReduxDevTools.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -617,6 +626,9 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\icudt_CJK.dat
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\icudt_EFIGS.dat
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\icudt_no_CJK.dat
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\fdaCXV5N.gz
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\UjFE5ALH.gz
+C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\R+lxOEop.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\QopRIbD2.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\JVQAxVKI.gz
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\D7anZg3i.gz
@@ -834,15 +846,3 @@ C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\Bla
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\refint\BlazorSyncfusion.dll
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\BlazorSyncfusion.pdb
 C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\ref\BlazorSyncfusion.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.ReduxDevTools.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.dll.gz
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.ReduxDevTools.dll.gz
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\wwwroot\_framework\Fluxor.Blazor.Web.dll.gz
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Fluxor.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Fluxor.Blazor.Web.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\bin\Debug\net6.0\Fluxor.Blazor.Web.ReduxDevTools.dll
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\fdaCXV5N.gz
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\UjFE5ALH.gz
-C:\Users\bogdan.draghici\source\repos\Corebuild\Development\BlazorSyncfusion\BlazorSyncfusion\obj\Debug\net6.0\build-gz\R+lxOEop.gz

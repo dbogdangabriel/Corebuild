@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using Syncfusion.Blazor.Grids
 
 <PageTitle>Index</PageTitle>
 
@@ -10,7 +11,7 @@ Welcome to your new app.
         <span class="oi oi-plus" aria-hidden="true"></span> Syncfusion Table
     </NavLink>
 </div>
-@using Syncfusion.Blazor.Grids
+
 
 <SfGrid DataSource="@Orders" AllowPaging="true" Toolbar="@(new List<string>() { "Add", "Edit", "Delete", "Cancel", "Update" })" Height="315">
     <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true"></GridEditSettings>

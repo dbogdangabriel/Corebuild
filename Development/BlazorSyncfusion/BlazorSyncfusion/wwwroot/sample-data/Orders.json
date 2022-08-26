@@ -1,0 +1,27 @@
+﻿[
+  {
+    "orderId": 1,
+    "customerID": 1,
+    "orderDate": "2018-05-06",
+    "freight": 2.00,
+    "shipCountry": "USA",
+    "verified": false
+  },
+  {
+    "orderId": 2,
+    "customerID": 1,
+    "orderDate": "2020-05-06",
+    "freight": 4.00,
+    "shipCountry": "USA",
+    "verified": false
+  },
+  {
+    "orderId": 1,
+    "customerID": 2,
+    "orderDate": "2022-04-07",
+    "freight": 152.00,
+    "shipCountry": "UK",
+    "verified": false
+  }
+
+]

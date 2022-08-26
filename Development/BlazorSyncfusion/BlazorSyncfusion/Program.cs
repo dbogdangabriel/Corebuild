@@ -1,4 +1,5 @@
 using BlazorSyncfusion;
+using BlazorSyncfusion.Services;
 using Fluxor;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -21,4 +22,6 @@ builder.Services.AddFluxor(o =>
         rdt.Name = "My application";
     });
 });
+
+builder.Services.AddScoped<StateFacade>();
 await builder.Build().RunAsync();
