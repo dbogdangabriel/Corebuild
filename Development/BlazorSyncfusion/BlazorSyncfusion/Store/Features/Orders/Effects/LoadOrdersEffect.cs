@@ -21,7 +21,7 @@ namespace BlazorSyncfusion.Store.Features.Orders.Effects
 
                 // Add a little extra latency for dramatic effect...
                 await Task.Delay(TimeSpan.FromMilliseconds(1000));
-                var ordersResponse = await _httpClient.GetFromJsonAsync<IEnumerable<OrderDto>>("todos");
+                var ordersResponse = await _httpClient.GetFromJsonAsync<IEnumerable<OrderDto>>("Orders");
 
                 _logger.LogInformation("Orders loaded successfully!");
                 dispatcher.Dispatch(new LoadOrdersSuccessAction(ordersResponse));

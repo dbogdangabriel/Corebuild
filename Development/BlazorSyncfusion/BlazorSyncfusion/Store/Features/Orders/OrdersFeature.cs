@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using BlazorSyncfusion.Store.State;
 
-namespace BlazorSyncfusion.Store.Features.Todos
+namespace BlazorSyncfusion.Store.Features.Orders
 {
-    public class TodosFeature : Feature<OrdersState>
+    public class OrdersFeature : Feature<OrdersState>
     {
         public override string GetName() => "Orders";
 

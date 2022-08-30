@@ -19,7 +19,7 @@ builder.Services.AddFluxor(o =>
     o.ScanAssemblies(typeof(Program).Assembly);
     o.UseReduxDevTools(rdt =>
     {
-        rdt.Name = "My application";
+        rdt.Name = "My Blazor application";
     });
 });
 
