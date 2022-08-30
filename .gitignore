@@ -1,5 +1,8 @@
 .vs/
 BethanysPieShopHRM.App/.vs
 BethanysPieShopHRM.App/.vs/BethanysPieShopHRM.App/v17/.suo
-BethanysPieShopHRM.App/.vs/BethanysPieShopHRM.App/v17/.suo
-BethanysPieShopHRM.App/.vs/BethanysPieShopHRM.App/v17/.suo
+.bin/
+Development/BlazorSyncfusion/BlazorSyncfusion/bin
+.obj/
+Development/BlazorSyncfusion/BlazorSyncfusion/obj
+
