@@ -1,6 +1,7 @@
 .vs/
 BethanysPieShopHRM.App/.vs
 BethanysPieShopHRM.App/.vs/BethanysPieShopHRM.App/v17/.suo
+.vs
 .bin/
 Development/BlazorSyncfusion/BlazorSyncfusion/bin
 .obj/
