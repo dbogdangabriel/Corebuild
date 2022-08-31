@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KOcK6/H/+oH2PJmzjYgyP0kDXXxrn00iOEBGQq2nacALwdKEWso8+mMPSrQovEHP1q1dq1WWjproKf6AtEHAnQ==",
+  "dgSpecHash": "YFEHediu/xwZ4D11exGjPqoVMQWVuuW6F3Z9eVuZU+1TDXSi8gkc30DMogR0+ov/5Y4GIAkOeb/VqBMFglppDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\bogdan.draghici\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
