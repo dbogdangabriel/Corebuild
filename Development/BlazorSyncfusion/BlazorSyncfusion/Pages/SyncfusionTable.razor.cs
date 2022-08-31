@@ -13,5 +13,9 @@ namespace BlazorSyncfusion.Pages
 
             base.OnInitialized();
         }
+        public void NavigateToOrderDetail(int id)
+        {
+            Navigation.NavigateTo($"orders/{id}");
+        }
     }
 }

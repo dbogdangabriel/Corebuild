@@ -1,4 +1,6 @@
-﻿@page "/SyncfusionTable"
+﻿@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+
+@page "/SyncfusionTable"
 @using BlazorSyncfusion.Models
 @using BlazorSyncfusion.Models.Orders.Dtos
 @using Fluxor
@@ -7,31 +9,61 @@
 
 @inject IState<OrdersState> OrdersState
 @inject StateFacade Facade
-<h3 class="text-center mb-3">Orders</h3>
+@inject NavigationManager Navigation
 
-<table class="table table-hover">
-    <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Title</th>
-            <th scope="col">Completed</th>
-            <th scope="col">User ID</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var order in OrdersState.Value.CurrentOrders.Take(10))
-        {
-            <tr>
-                <td>@order.Id</td>
-                <td>@order.Title</td>
-                <td>@order.Completed</td>
-                <td>@order.UserId</td>
+<h3 class="text-center mb-3">Todos</h3>
+
+@if (OrdersState.Value.IsLoading)
+{
+    <div class="d-flex flex-row justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+}
+else if (OrdersState.Value.HasCurrentErrors || OrdersState.Value.CurrentOrders is null)
+{
+    <div class="d-flex flex-column align-items-center">
+        <span class="py-2">Whoops! Looks like an issue occurred loading orders :(</span>
+        <button class="btn btn-info py-2" @onclick="() => Facade.LoadOrders()">Reload Orders</button>
+    </div>
+}
+else if (!OrdersState.Value.CurrentOrders.Any())
+{
+    <CreateOrderForm />
+
+    <div class="d-flex flex-column align-items-center mt-2">
+        <span class="py-2">Looks like there's no orders...</span>
+        <button class="btn btn-info py-2" @onclick="() => Facade.LoadOrders()">Reload Orders</button>
+    </div>
+}
+else
+{
+    <CreateOrderForm />
+
+    <table class="table table-hover mt-2">
+        <thead>
+            <tr class="text-center">
+                <th scope="col">ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Completed</th>
+                <th scope="col">User ID</th>
             </tr>
-        }
-    </tbody>
-</table>
-
-
+        </thead>
+        <tbody>
+            @foreach (var order in OrdersState.Value.CurrentOrders)
+            {
+                <tr style="cursor: pointer;" class="text-center" @onclick="() => NavigateToOrderDetail(order.Id)">
+                    <td>@order.Id</td>
+                    <td>@order.Title</td>
+                    <td>@order.Completed</td>
+                    <td>@order.UserId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@*
 
 <h1>Syncfusion DataTable</h1>
 <div class="col-lg-12 control-section">
@@ -113,3 +145,4 @@
         text-align: center !important;
     }
 </style>
+*@

@@ -4,13 +4,6 @@ namespace BlazorSyncfusion.Models.Orders.Validation
 {
     public class CreateOrUpdateOrderValidationModel
     {
-        public CreateOrUpdateOrderValidationModel(string title, bool completed, int userId)
-        {
-            Title = title;
-            Completed = completed;
-            UserId = userId;
-        }
-
         [Required(AllowEmptyStrings = false, ErrorMessage = "Your order must have a title")]
         public string? Title { get; set; }
 
