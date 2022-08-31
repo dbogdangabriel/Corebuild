@@ -252,3 +252,5 @@ orleans.codegen.cs
 Generated_Code/
 
 # Backup &
+Development/BlazorSyncfusion/BlazorSyncfusion/obj/
+Development/BlazorSyncfusion/BlazorSyncfusion/bin

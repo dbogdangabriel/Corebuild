@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bogdan\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj": {}
+    "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bogdan\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj": {
+    "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bogdan\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj",
+        "projectUniqueName": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj",
         "projectName": "BlazorSyncfusion",
-        "projectPath": "C:\\Users\\Bogdan\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj",
-        "packagesPath": "C:\\Users\\Bogdan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bogdan\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\obj\\",
+        "projectPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\BlazorSyncfusion.csproj",
+        "packagesPath": "C:\\Users\\bogdan.draghici\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogdan.draghici\\source\\repos\\Corebuild\\Development\\BlazorSyncfusion\\BlazorSyncfusion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bogdan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogdan.draghici\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -81,12 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.8, 6.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
