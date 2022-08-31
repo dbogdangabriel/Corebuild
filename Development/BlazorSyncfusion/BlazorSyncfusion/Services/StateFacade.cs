@@ -1,4 +1,7 @@
-﻿using BlazorSyncfusion.Store.Features.Orders.Action.LoadOrders;
+﻿using BlazorSyncfusion.Models.Orders.Dtos;
+using BlazorSyncfusion.Models.Orders.Validation;
+using BlazorSyncfusion.Store.Features.Orders.Actions.CreateOrder;
+using BlazorSyncfusion.Store.Features.Orders.Actions.LoadOrders;
 using Fluxor;
 
 namespace BlazorSyncfusion.Services
@@ -16,5 +19,15 @@ namespace BlazorSyncfusion.Services
             _logger.LogInformation("Issuing action to load orders...");
             _dispatcher.Dispatch(new LoadOrdersAction());
         }
+
+        public void CreateOrder(string title, bool completed, int userId)
+        {
+            // Construct our validated todo
+            var orderDto = new CreateOrUpdateOrderDto(title, completed, userId);
+
+            _logger.LogInformation($"Issuing action to create todo [{title}] for user [{userId}]");
+            _dispatcher.Dispatch(new CreateOrderAction(orderDto));
+        }
+
     }
 }

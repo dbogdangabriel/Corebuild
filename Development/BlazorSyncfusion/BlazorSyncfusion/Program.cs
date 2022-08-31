@@ -4,6 +4,7 @@ using Fluxor;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Syncfusion.Blazor;
+using System.Net.Mime;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -23,5 +24,12 @@ builder.Services.AddFluxor(o =>
     });
 });
 
+// Add custom application services
 builder.Services.AddScoped<StateFacade>();
+builder.Services.AddHttpClient<JsonPlaceholderApiService>(client =>
+{
+    client.DefaultRequestHeaders.Add("Content-Control", $"{MediaTypeNames.Application.Json}; charset=utf-8");
+    client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com");
+});
+
 await builder.Build().RunAsync();

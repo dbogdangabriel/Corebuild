@@ -1,5 +1,5 @@
-﻿using BlazorSyncfusion.Models;
-using BlazorSyncfusion.Store.Features.Orders.Action.LoadOrders;
+﻿using BlazorSyncfusion.Models.Orders.Dtos;
+using BlazorSyncfusion.Store.Features.Orders.Actions.LoadOrders;
 using Fluxor;
 using System.Net.Http.Json;
 

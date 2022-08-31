@@ -1,5 +1,6 @@
 ﻿@page "/SyncfusionTable"
 @using BlazorSyncfusion.Models
+@using BlazorSyncfusion.Models.Orders.Dtos
 @using Fluxor
 @using BlazorSyncfusion.Store.State
 @using BlazorSyncfusion.Services
@@ -8,27 +9,27 @@
 @inject StateFacade Facade
 <h3 class="text-center mb-3">Orders</h3>
 
-    <table class="table table-hover">
-        <thead>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Completed</th>
+            <th scope="col">User ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in OrdersState.Value.CurrentOrders.Take(10))
+        {
             <tr>
-                <th scope="col">OrderID</th>
-                <th scope="col">CustomerID</th>
-                <th scope="col">OrderDate</th>
-                <th scope="col">Freight ID</th>
+                <td>@order.Id</td>
+                <td>@order.Title</td>
+                <td>@order.Completed</td>
+                <td>@order.UserId</td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var order in OrdersState.Value.CurrentOrders.Take(10))
-            {
-                <tr>
-                    <td>@order.OrderID</td>
-                    <td>@order.CustomerID</td>
-                    <td>@order.OrderDate</td>
-                    <td>@order.Freight</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+        }
+    </tbody>
+</table>
 
 
 

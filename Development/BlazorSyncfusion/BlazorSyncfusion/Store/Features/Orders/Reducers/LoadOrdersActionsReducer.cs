@@ -1,4 +1,4 @@
-﻿using BlazorSyncfusion.Store.Features.Orders.Action.LoadOrders;
+﻿using BlazorSyncfusion.Store.Features.Orders.Actions.LoadOrders;
 using BlazorSyncfusion.Store.State;
 using Fluxor;
 

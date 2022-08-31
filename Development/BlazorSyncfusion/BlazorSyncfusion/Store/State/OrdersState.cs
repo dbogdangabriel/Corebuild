@@ -1,4 +1,4 @@
-﻿using BlazorSyncfusion.Models;
+﻿using BlazorSyncfusion.Models.Orders.Dtos;
 
 namespace BlazorSyncfusion.Store.State
 {

@@ -1,5 +1,3 @@
-
-
 namespace BlazorSyncfusion.Pages
 {
     public partial class SyncfusionTable
