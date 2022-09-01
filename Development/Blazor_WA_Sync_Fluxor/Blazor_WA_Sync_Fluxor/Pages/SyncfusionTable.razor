@@ -1,0 +1,85 @@
+﻿@page "/weather"
+@using Blazor_WA_Sync_Fluxor.Model
+@using Blazor_WA_Sync_Fluxor.State.Weather
+@inject IDispatcher dispatcher
+@inject IState<WeatherDataState> weather
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (weather.Value.IsLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h1>Syncfusion DataTable</h1>
+    <div class="col-lg-12 control-section">
+
+        <div class="content-wrapper">
+            <div class="row">
+
+                <SfGrid DataSource="@weather.Value.Forecasts" AllowPaging="true"
+                    AllowReordering="true"
+                    Toolbar="@ToolbarItems">
+
+                    <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true"></GridEditSettings>
+                    <GridColumns>
+                        <GridColumn Field=@nameof(WeatherForecast.Date)
+                                HeaderText="Date"
+                                CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
+                                Format="d" Type="ColumnType.Date"
+                                EditType="EditType.DatePickerEdit"
+                                Width="130">
+                        </GridColumn>
+
+                        <GridColumn Field=@nameof(WeatherForecast.TemperatureC)
+                                HeaderText="Temeprature in C"
+                                CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
+                                Width="50">
+                        </GridColumn>
+
+                        <GridColumn Field=@nameof(WeatherForecast.TemperatureF)
+                                HeaderText="Temeprature in F"
+                                CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
+                                Width="50">
+                        </GridColumn>
+
+                        <GridColumn Field=@nameof(WeatherForecast.Summary)
+                                HeaderText="Summary"
+                                CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
+                                Width="100">
+                        </GridColumn>
+                    </GridColumns>
+                </SfGrid>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+
+
+    .e-grid .e-headercell {
+        background-color: darkturquoise;
+    }
+
+    .e-headercell {
+        color: slategray;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .e-grid .e-gridheader .e-headercell.e-attr .e-headercelldiv {
+        text-align: center !important;
+    }
+
+    .e-attr {
+        text-align: center !important;
+    }
+</style>
+
