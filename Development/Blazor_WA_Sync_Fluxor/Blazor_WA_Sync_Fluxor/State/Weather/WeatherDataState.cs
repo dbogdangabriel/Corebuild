@@ -1,5 +1,4 @@
 using Blazor_WA_Sync_Fluxor.Model;
-using Blazor_WA_Sync_Fluxor.Store.State;
 
 namespace Blazor_WA_Sync_Fluxor.State.Weather
 {
