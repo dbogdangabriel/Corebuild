@@ -1,8 +1,8 @@
 ﻿@page "/weather"
 @using Blazor_WA_Sync_Fluxor.Model
-@using Blazor_WA_Sync_Fluxor.State.Weather
+@using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
 @inject IDispatcher dispatcher
-@inject IState<WeatherDataState> weather
+@inject IState<WeatherState> weather
 @inherits Fluxor.Blazor.Web.Components.FluxorComponent
 <PageTitle>Weather forecast</PageTitle>
 
@@ -22,12 +22,17 @@ else
         <div class="content-wrapper">
             <div class="row">
 
-                <SfGrid DataSource="@weather.Value.Forecasts" AllowPaging="true"
-                    AllowReordering="true"
-                    Toolbar="@ToolbarItems">
+                <SfGrid DataSource="@weather.Value.Forecasts" ID="Grid" AllowSorting="true" AllowFiltering="true" AllowPaging="true"
+                    Toolbar="@(new List<string>() { "Add", "Delete", "Update", "Cancel" })">
 
                     <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true"></GridEditSettings>
                     <GridColumns>
+                        <GridColumn Field=@nameof(WeatherForecast.WeatherId)
+                                HeaderText="WeatherId"
+                                CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
+                                IsPrimaryKey="true"
+                                Width="30">
+                        </GridColumn>
                         <GridColumn Field=@nameof(WeatherForecast.Date)
                                 HeaderText="Date"
                                 CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"

@@ -1,5 +1,5 @@
 using Blazor_WA_Sync_Fluxor;
-using Blazor_WA_Sync_Fluxor.State.Weather;
+
 using Fluxor;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -23,5 +23,4 @@ builder.Services.AddFluxor(o =>
     });
 });
 
-builder.Services.AddScoped<WeatherDataState>();
 await builder.Build().RunAsync();

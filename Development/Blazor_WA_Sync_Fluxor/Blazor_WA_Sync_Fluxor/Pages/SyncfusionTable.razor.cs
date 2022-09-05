@@ -1,16 +1,25 @@
 
 
-using Blazor_WA_Sync_Fluxor.State.Weather;
+using Blazor_WA_Sync_Fluxor.Model;
+using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase;
+using Blazor_WA_Sync_Fluxor.Store;
+using Fluxor;
+using Microsoft.AspNetCore.Components;
 
 namespace Blazor_WA_Sync_Fluxor.Pages
 {
     public partial class SyncfusionTable
     {
-        public List<string> ToolbarItems = new List<string>() { "Add", "Edit", "Delete", "Update", "Cancel" };
+        public static List<WeatherForecast> Forecasts { get; set; }
+        [Inject]
+        private IState<WeatherState> WeatherState { get; set; }
+        [Inject]
+        private IDispatcher Dispatcher { get; set; }
+
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            dispatcher.Dispatch(new WeatherDataAction());
+            Dispatcher.Dispatch(new FetchDataAction());
         }
     }
 }
