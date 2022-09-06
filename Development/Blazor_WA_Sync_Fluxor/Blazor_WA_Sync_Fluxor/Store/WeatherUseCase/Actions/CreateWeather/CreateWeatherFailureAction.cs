@@ -1,8 +1,8 @@
 ﻿namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.CreateWeather
 {
-    public class UpdateWeatherFailureAction
+    public class CreateWeatherFailureAction
     {
-        public UpdateWeatherFailureAction(string errorMessage)
+        public CreateWeatherFailureAction(string errorMessage)
         {
             Console.WriteLine(errorMessage + "Method not yet implemented");
         }

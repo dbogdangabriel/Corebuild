@@ -2,9 +2,9 @@
 
 namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.CreateWeather
 {
-    public class UpdateWeatherSuccesAction
+    public class CreateWeatherSuccesAction
     {
-        public UpdateWeatherSuccesAction(WeatherForecast weather) =>
+        public CreateWeatherSuccesAction(WeatherForecast weather) =>
             Weather = weather;
         public WeatherForecast Weather { get; }
     }
