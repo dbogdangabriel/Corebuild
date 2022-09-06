@@ -17,7 +17,7 @@ namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
         public async Task HandleFetchDataAction(FetchDataAction action, IDispatcher dispatcher)
         {
             var forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-            dispatcher.Dispatch(new FetchDataResultAction(forecasts));
+            dispatcher.Dispatch(new FetchDataResultAction(forecasts: forecasts!));
         }
     }
 }
