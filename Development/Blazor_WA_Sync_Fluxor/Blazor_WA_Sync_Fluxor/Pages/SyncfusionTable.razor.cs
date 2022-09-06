@@ -1,11 +1,8 @@
-
-
 using Blazor_WA_Sync_Fluxor.Model;
 using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase;
-using Blazor_WA_Sync_Fluxor.Store;
+using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.LoadWeather;
 using Fluxor;
 using Microsoft.AspNetCore.Components;
-using static Blazor_WA_Sync_Fluxor.Pages.Index;
 using System.Xml;
 
 
@@ -24,7 +21,7 @@ namespace Blazor_WA_Sync_Fluxor.Pages
         {
 
             base.OnInitialized();
-            Dispatcher?.Dispatch(new FetchDataAction()); //this triggers Fluxor to go get the state
+            Dispatcher?.Dispatch(new LoadWeatherAction()); //this triggers Fluxor to go get the state
         }
     }
 }

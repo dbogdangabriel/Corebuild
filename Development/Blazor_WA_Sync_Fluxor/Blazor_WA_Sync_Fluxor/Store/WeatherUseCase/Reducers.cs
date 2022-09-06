@@ -1,5 +1,6 @@
 ﻿using Blazor_WA_Sync_Fluxor.Model;
 using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.CreateWeather;
+using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.LoadWeather;
 using Fluxor;
 
 namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
@@ -7,20 +8,20 @@ namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
     public static class Reducers
     {
         [ReducerMethod]
-        public static WeatherState ReduceFetchDataAction(WeatherState state, FetchDataAction action) =>
+        public static WeatherState ReduceLoadWeatherAction(WeatherState state, LoadWeatherAction action) =>
             new(isLoading: true, forecasts: null);
 
         [ReducerMethod]
-        public static WeatherState ReduceFetchDataResultAction(WeatherState state, FetchDataResultAction action) =>
+        public static WeatherState ReduceLoadWeatherSuccessAction(WeatherState state, LoadWeatherSuccessAction action) =>
             new(isLoading: false, forecasts: action.Forecasts);
 
 
         [ReducerMethod]
-        public static WeatherState ReduceCreateWeatherAction(WeatherState state, CreateWeatherAction action) =>
+        public static WeatherState ReduceCreateWeatherAction(WeatherState state, UpdateWeatherAction action) =>
          new WeatherState(isLoading: true, forecasts: null);
 
         [ReducerMethod]
-        public static WeatherState ReduceCreateWeatherSuccessAction(WeatherState state, CreateWeatherSuccesAction action)
+        public static WeatherState ReduceCreateWeatherSuccessAction(WeatherState state, UpdateWeatherSuccesAction action)
         {
             // get weather list or initialize if we dont have one
             var currentWeather = state.Forecasts is null?
@@ -36,14 +37,8 @@ namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
         }
 
         [ReducerMethod]
-        public static WeatherState ReduceCreateWeatherFailureAction(WeatherState state, CreateWeatherFailureAction action) =>
+        public static WeatherState ReduceCreateWeatherFailureAction(WeatherState state, UpdateWeatherFailureAction action) =>
             new WeatherState(isLoading: true, forecasts: null); // need to implement errorMessage
 
-        /*        [ReducerMethod]
-                public static WeatherState ReduceFetchAddAction(
-                        WeatherState state, FetchDataAddAction action) =>
-                        new WeatherState(
-                        isLoading: false,
-                        forecasts: action.Forecasts);*/
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Fluxor;
 using System.Net.Http.Json;
 using Blazor_WA_Sync_Fluxor.Model;
+using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.LoadWeather;
 
 namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
 {
@@ -14,10 +15,10 @@ namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
         }
 
         [EffectMethod]
-        public async Task HandleFetchDataAction(FetchDataAction action, IDispatcher dispatcher)
+        public async Task HandleFetchDataAction(LoadWeatherAction action, IDispatcher dispatcher)
         {
             var forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-            dispatcher.Dispatch(new FetchDataResultAction(forecasts: forecasts!));
+            dispatcher.Dispatch(new LoadWeatherSuccessAction(forecasts: forecasts!));
         }
     }
 }

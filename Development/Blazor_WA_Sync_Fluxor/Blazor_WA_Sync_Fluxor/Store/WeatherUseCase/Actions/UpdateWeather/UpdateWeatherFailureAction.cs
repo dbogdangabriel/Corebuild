@@ -1,4 +1,4 @@
-﻿namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.CreateWeather
+﻿namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.UpdateWeather
 {
     public class UpdateWeatherFailureAction
     {
