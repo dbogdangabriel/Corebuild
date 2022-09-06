@@ -1,14 +1,18 @@
 ﻿@page "/weather"
 @using Blazor_WA_Sync_Fluxor.Model
+@using Blazor_WA_Sync_Fluxor.Services
+@using Blazor_WA_Sync_Fluxor.Store.State
 @using Blazor_WA_Sync_Fluxor.Store.WeatherUseCase
 @inherits Fluxor.Blazor.Web.Components.FluxorComponent
 <PageTitle>Weather forecast</PageTitle>
+@inject IState<WeatherState> Weather
 @inject HttpClient Http
 <h1>Weather forecast</h1>
+@inject StateFacade Facade
 
 <p>This component demonstrates fetching data from the server.</p>
 
-@if (WeatherState.Value.IsLoading)
+@if (Weather.Value.IsLoading)
 {
     <p><em>Loading...</em></p>
 }
@@ -20,7 +24,7 @@ else
         <div class="content-wrapper">
             <div class="row">
 
-                <SfGrid DataSource="@WeatherState.Value.Forecasts" ID="Grid" AllowSorting="true" AllowFiltering="true" AllowPaging="true"
+                <SfGrid DataSource="@Weather.Value.Forecasts" ID="Grid" AllowSorting="true" AllowFiltering="true" AllowPaging="true"
                     Toolbar="@(new List<string>() { "Add", "Delete", "Update", "Cancel" })">
 
                     <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true"></GridEditSettings>

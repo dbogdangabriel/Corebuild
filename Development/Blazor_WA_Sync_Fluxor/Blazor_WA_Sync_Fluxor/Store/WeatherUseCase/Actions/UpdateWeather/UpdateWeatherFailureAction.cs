@@ -1,10 +1,12 @@
-﻿namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.UpdateWeather
+﻿using Blazor_WA_Sync_Fluxor.Store.Shared.Action;
+
+namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Actions.UpdateWeather
 {
-    public class UpdateWeatherFailureAction
+    public class UpdateWeatherFailureAction : FailureAction
     {
         public UpdateWeatherFailureAction(string errorMessage)
+            : base(errorMessage)
         {
-            Console.WriteLine(errorMessage + "Method not yet implemented");
         }
     }
 }

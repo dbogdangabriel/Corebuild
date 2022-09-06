@@ -15,4 +15,8 @@
     <PackageReference Include="Fluxor.Blazor.Web.ReduxDevTools" Version="5.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Store\WeatherUseCase\Effects\" />
+  </ItemGroup>
+
 </Project>
