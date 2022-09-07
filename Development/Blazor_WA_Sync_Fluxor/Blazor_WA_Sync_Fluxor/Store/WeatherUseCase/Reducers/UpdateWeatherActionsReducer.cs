@@ -11,7 +11,7 @@ namespace Blazor_WA_Sync_Fluxor.Store.WeatherUseCase.Reducers
         public static WeatherState ReduceUpdateWeatherAction(WeatherState state, UpdateWeatherAction action) =>
              new WeatherState(true, null, state.Forecasts, state.Forecast);
         [ReducerMethod]
-        public static WeatherState ReduceUpdateWeatherSuccessAction(WeatherState state, UpdateWeatherSuccesAction action)
+        public static WeatherState ReduceUpdateWeatherSuccessAction(WeatherState state, UpdateWeatherSuccessAction action)
         {
             // check if the weather list is null, if not set the state with a new list containing the update
             if (state.Forecasts is null)

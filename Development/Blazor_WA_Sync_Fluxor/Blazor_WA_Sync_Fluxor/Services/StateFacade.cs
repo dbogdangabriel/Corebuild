@@ -16,34 +16,40 @@ namespace Blazor_WA_Sync_Fluxor.Services
             _logger = logger;
             _dispatcher = dispatcher;
         }
+
+/*        public void LoadWeatherById(int id)
+        {
+            _logger.LogInformation($"Issuing action to load forecast {id}...");
+            _dispatcher.Dispatch(new LoadWeatherDetailAction(id));
+        }*/
         public void LoadWeather()
         {
-            _logger.LogInformation("Issuing action to load todos...");
+            _logger.LogInformation("Issuing action to load forecats...");
             _dispatcher.Dispatch(new LoadWeatherAction());
         }
 
 
         public void CreateWeather(DateTime date,int temperatureC, string title)
         {
-            // Construct our validated todo
+            // Construct our validated forecast
             var weather = new CreateOrUpdateWeather(date, temperatureC, title);
 
-            _logger.LogInformation($"Issuing action to create todo [{title}] for user");
+            _logger.LogInformation($"Issuing action to create forecats [{date}] with temperature [{temperatureC}]");
             _dispatcher.Dispatch(new CreateWeatherAction(weather));
         }
 
         public void UpdateWeather(int weatherId, DateTime date, int temperatureC, string title)
         {
-            // Construct our validated todo
+            // Construct our validated forecast
             var weather = new CreateOrUpdateWeather(date, temperatureC, title);
 
-            _logger.LogInformation($"Issuing action to update todo {weatherId}");
+            _logger.LogInformation($"Issuing action to update forecast {weatherId}");
             _dispatcher.Dispatch(new UpdateWeatherAction(weatherId, weather));
         }
 
-        public void DeleteTodo(int id)
+        public void DeleteWeather(int id)
         {
-            _logger.LogInformation($"Issuing action to delete todo {id}");
+            _logger.LogInformation($"Issuing action to delete forecast {id}");
             _dispatcher.Dispatch(new DeleteWeatherAction(id));
         }
     }
