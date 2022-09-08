@@ -3,6 +3,7 @@
 @page "/todos"
 
 
+@using Blazzor_Wa_Sync_Fluxor.Todos.Models.Todos.Dtos
 @using Blazzor_Wa_Sync_Fluxor.Todos.Store.State
 @using Blazzor_Wa_Sync_Fluxor.Todos.Services
 
@@ -45,11 +46,19 @@ else
             <div class="content-wrapper">
                 <div class="row">
 
-                <SfGrid DataSource="@TodosState.Value.CurrentTodos" ID="Grid" AllowSorting="true" AllowFiltering="true" AllowPaging="true"
-                    Toolbar="@(new List<string>() { "Add", "Delete", "Update", "Cancel" })">
-
-                        <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true"></GridEditSettings>
-                        <GridColumns>
+                <SfGrid Toolbar="@(new List<string>() { "Add", "Edit", "Delete", "Cancel", "Update" })"
+                            DataSource="@TodosState.Value.CurrentTodos"
+                            AllowSorting="true"
+                            AllowFiltering="true"
+                            AllowPaging="true"
+                            EnableHover="false"
+                            AllowExcelExport="true">
+                            <GridPageSettings PageSize="5" />
+                        <GridSelectionSettings EnableToggle="false"></GridSelectionSettings>
+                        <GridEvents OnActionBegin="@ActionBeginHandler" OnActionComplete="ActionCompleteHandler" />
+                        <GridEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" Mode="EditMode.Dialog" ShowDeleteConfirmDialog="true">
+                    </GridEditSettings>
+                    <GridColumns>
                         <GridColumn Field=@nameof(TodosState.Value.CurrentTodo.Id)
                                 HeaderText="Id"
                                 CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
@@ -64,6 +73,7 @@ else
 
                         <GridColumn Field=@nameof(TodosState.Value.CurrentTodo.Completed)
                                 HeaderText="Completed"
+                                DisplayAsCheckBox="true"
                                 CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
                                 Width="50">
                             </GridColumn>
@@ -73,6 +83,14 @@ else
                                 CustomAttributes="@(new Dictionary<string, object>(){ { "class", "e-attr" }})"
                                 Width="50">
                             </GridColumn>
+                              <GridColumn HeaderText="Todo profile" TextAlign="TextAlign.Center" Width="120">
+                            <Template>
+                                @{
+                                    var TodoView = (context as TodoDto);
+                                    <div><a href="#" @onclick="@(() => NavigateToTodoDetail(TodoView.Id))">View</a></div>
+                                }
+                            </Template>
+                        </GridColumn>
 
                         </GridColumns>
                     </SfGrid>
@@ -105,6 +123,7 @@ else
 
 @code {
 
+
     protected override void OnInitialized()
     {
         // Issue the load todos command, if no current todos have been loaded
@@ -114,6 +133,34 @@ else
         }
 
         base.OnInitialized();
+    }
+
+    public void ActionBeginHandler(ActionEventArgs<TodoDto?> args)
+    {
+        if (args.Type == "actionBegin")
+            if (args.Action == "edit")
+            {
+                if (args.RequestType == Syncfusion.Blazor.Grids.Action.Save)
+                {
+                    var d = args.Data;
+                }
+            }
+    }
+
+    public void ActionCompleteHandler(ActionEventArgs<TodoDto> args)
+    {
+        if (args.Type == "actionComplete")
+            if (args.Action == "add-delete-success")
+            {
+                if (args.RequestType == Syncfusion.Blazor.Grids.Action.Save)
+                {
+                }
+                else if (args.RequestType == Syncfusion.Blazor.Grids.Action.Delete)
+                {
+                    // Delete Record
+                    var d = args.Data;
+                }
+            }
     }
 
     public void NavigateToTodoDetail(int id)
