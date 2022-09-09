@@ -55,7 +55,9 @@ else
                             AllowExcelExport="true">
                             <GridPageSettings PageSize="5" />
                         <GridSelectionSettings EnableToggle="false"></GridSelectionSettings>
-                        <GridEvents OnActionBegin="@ActionBeginHandler" OnActionComplete="ActionCompleteHandler" />
+                        <GridEvents
+                            OnActionBegin="ActionBeginHandler"
+                            OnActionComplete="ActionCompleteHandler" />
                         <GridEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" Mode="EditMode.Dialog" ShowDeleteConfirmDialog="true">
                     </GridEditSettings>
                     <GridColumns>
